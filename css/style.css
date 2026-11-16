@@ -1137,3 +1137,29 @@ footer p {
         animation-iteration-count: 1 !important;
     }
 }
+
+/* BOTÃO FLUTUANTE WHATSAPP */
+
+.whatsapp-flutuante {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-decoration: none;
+    z-index: 9999;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.whatsapp-flutuante:hover {
+    transform: scale(1.1);
+    background-color: #128C7E;
+}
